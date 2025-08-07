@@ -13,3 +13,12 @@ class MyDataOutput(BaseModel):
     response:str = "Thank you"
 
 
+# data classes
+# @dataclass
+# class MyData:
+#     n1:int
+#     n2:int
+#     res:int
+    
+    
+    

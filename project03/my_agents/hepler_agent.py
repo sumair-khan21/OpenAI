@@ -7,15 +7,7 @@ from dataclasses import dataclass
 from agents.agent import StopAtTools
 
 
-# data classes
-# @dataclass
-# class MyData:
-#     n1:int
-#     n2:int
-#     res:int
-    
-    
-    
+
        
 math_agent = Agent(name = "Gulzari Lal",
 instructions="You are a helpful assistant. Answer the user's questions to the best of your ability.",
