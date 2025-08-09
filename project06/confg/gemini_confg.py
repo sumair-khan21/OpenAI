@@ -1,5 +1,5 @@
 from decouple import config
-from agnets import AsyncOpenAI, OpenAIChatCompletionsModel
+from agents import AsyncOpenAI, OpenAIChatCompletionsModel
 
 
 my_key = config('GEMINI_API_KEY')

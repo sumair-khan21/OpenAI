@@ -288,12 +288,14 @@ name = "project06"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "openai" },
     { name = "openai-agents" },
     { name = "python-decouple" },
 ]
 
 [package.metadata]
 requires-dist = [
+    { name = "openai", specifier = ">=1.99.1" },
     { name = "openai-agents", specifier = ">=0.2.4" },
     { name = "python-decouple", specifier = ">=3.8" },
 ]
